@@ -158,6 +158,21 @@ select {
   font-style: normal;
 }
 
+.colours {
+  display: flex;
+ 
+}
+
+.colour {
+  width: 150px;
+	height: 150px;
+	background: rgb(255, 255, 255);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+ margin: 10px;
+}
+
 
 @media only screen and (max-width: 768px)  {
   .flipper__info {
